@@ -12,11 +12,11 @@ import java.io.InputStream;
 
 public class AliOssUtil {
     // Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
-    private static final String ENDPOINT = "https://oss-cn-beijing.aliyuncs.com";
-    private static final String ACCESS_KEY_ID="LTAI5t6Aja7rnZLquqe753hn";
-    private static final String ACCESS_KEY_SECRET="mOYcIr7EF03Pov5uSaBKsmme2Y213v";
+    private static final String ENDPOINT = "";
+    private static final String ACCESS_KEY_ID="";
+    private static final String ACCESS_KEY_SECRET="";
     // 填写Bucket名称，例如examplebucket。
-    private static final String BUKET_NAME = "big-event-lqz";
+    private static final String BUKET_NAME = "";
 
     public static String uploadFile(String objectName, InputStream in) throws Exception {
 
